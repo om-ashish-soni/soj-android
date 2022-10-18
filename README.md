@@ -1,16 +1,18 @@
-# saraswati_online_judge
+# Saraswati Competitive Coding Mobile App
 
-A new Flutter project.
+An Useful app to to competitive coding in mobile phone ,like codechef , codeforces , atcoder
 
-## Getting Started
+Our goal of this project is to achieve that :
+User can use IDE for competitive programming,
+Write Code , run and submit
+User can see judge verdict ( Accepted, Wrong answer etc.)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Dependencies
+    dependencies:
+      flutter:
+        sdk: flutter
+      http: ^0.12.0+1
+      cupertino_icons: ^1.0.2
+      shared_preferences: ^2.0.0
+      code_editor: ^1.3.2
+      footer: ^0.0.4
