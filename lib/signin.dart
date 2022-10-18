@@ -93,7 +93,7 @@ class _SigninPageState extends State<SigninPage> {
   }
   @override
   Widget build(BuildContext context)  {
-    checkLoggedIn();
+    // checkLoggedIn();
     return Scaffold(
       appBar: AppBar(
         title: Text('SOJ Signin'),
